@@ -1,4 +1,4 @@
-package ch15.dotcom.simple;
+package ch15.dotcom;
 
 public class simpleDatComTest {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class simpleDatComTest {
 //        3. 사용자가 추측한 위치를 나타내는 String 변수 선언
         String guess = "2";
 
-//        4. 3단계에서 만든 변수 전달 : checkYourself()
+//        4. 3단계에서 만든 변수 전달 : checkYourself(String )
         String testResult = dot.checkYourself(guess);
 
 //        5. 결과 출력 (true / false)

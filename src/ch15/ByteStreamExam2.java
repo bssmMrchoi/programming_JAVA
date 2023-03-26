@@ -12,9 +12,7 @@ public class ByteStreamExam2 {
         BufferedInputStream bi = new BufferedInputStream(System.in);
         BufferedOutputStream bo = new BufferedOutputStream(System.out);
         int a;
-
         try {
-
             while ((a = bi.read()) != -1) {
                 bo.write(a);
             }

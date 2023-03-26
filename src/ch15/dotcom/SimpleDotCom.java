@@ -1,4 +1,4 @@
-package ch15.dotcom.simple;
+package ch15.dotcom;
 
 import java.util.ArrayList;
 
