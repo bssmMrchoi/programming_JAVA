@@ -13,7 +13,7 @@ public class DotComBust {
         dotComs.add(new DotCom("kakao.com"));
 
         for (DotCom dotCom : dotComs) {
-            ArrayList<String> newLocation = gameHelper.placeDotCom(3);
+            ArrayList<String> newLocation = gameHelper.placeDotCom();
             dotCom.setLocationCells(newLocation);
         }
         gameHelper.printAll();
